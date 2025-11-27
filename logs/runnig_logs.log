@@ -1,14 +1,9 @@
-[2025-11-25 15:34:03,511: INFO: main: Welcome to my custom log]
-[2025-11-25 15:34:38,101: INFO: main: Welcome to my custom log]
-[2025-11-26 16:03:10,547: INFO: common: YAML file config\config.yaml loaded successfully]
-[2025-11-26 16:03:10,548: INFO: common: YAML file params.yaml loaded successfully]
-[2025-11-26 16:04:31,562: INFO: common: YAML file config\config.yaml loaded successfully]
-[2025-11-26 16:04:31,565: INFO: common: YAML file params.yaml loaded successfully]
-[2025-11-26 16:06:16,037: INFO: common: YAML file config\config.yaml loaded successfully]
-[2025-11-26 16:06:16,042: INFO: common: YAML file params.yaml loaded successfully]
-[2025-11-26 16:06:16,044: INFO: common: created directory at: artifacts]
-[2025-11-26 16:06:16,046: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-11-26 16:06:24,625: INFO: 4037744573: artifacts/data_ingestion/data.zip download! with following info: 
+[2025-11-27 15:38:58,002: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2025-11-27 15:38:58,028: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-11-27 15:38:58,048: INFO: common: YAML file params.yaml loaded successfully]
+[2025-11-27 15:38:58,049: INFO: common: created directory at: artifacts]
+[2025-11-27 15:38:58,051: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-27 15:39:10,805: INFO: data_ingestion: artifacts\data_ingestion\data.zip download! with following info: 
 Connection: close
 Content-Length: 11616915
 Cache-Control: max-age=300
@@ -19,19 +14,22 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: B2DD:39CB45:223E42:39821C:6926D822
+X-GitHub-Request-Id: F530:382844:234B6A:3F63D6:69282337
 Accept-Ranges: bytes
-Date: Wed, 26 Nov 2025 10:36:19 GMT
+Date: Thu, 27 Nov 2025 10:09:01 GMT
 Via: 1.1 varnish
-X-Served-By: cache-del21742-DEL
+X-Served-By: cache-del21732-DEL
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1764153379.885597,VS0,VE1065
+X-Timer: S1764238140.222960,VS0,VE985
 Vary: Authorization,Accept-Encoding
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 928163d48d04f26d03afd6e9a2d1ddb44bd69219
-Expires: Wed, 26 Nov 2025 10:41:19 GMT
+X-Fastly-Request-ID: 009a5ebd30cc4bcfdb8860c46dd90fae3eeac7a1
+Expires: Thu, 27 Nov 2025 10:14:01 GMT
 Source-Age: 1
 
 ]
+[2025-11-27 15:39:11,649: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
