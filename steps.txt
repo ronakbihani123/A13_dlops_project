@@ -97,3 +97,9 @@ Now add 'get_prepare_callback_config' function  into config folder in 'configura
 Now go to 'components' folder ---> create file 'prepare_callbacks.py' 
 
 ---------------------------------------------------------------
+
+Add trainign directory in config.yaml file 
+
+Now create 'training.ipynb' file into research folder . 
+
+------------------------------------------------------
