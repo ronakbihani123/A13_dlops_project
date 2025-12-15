@@ -256,3 +256,56 @@ x==========x]
 [2025-12-11 14:40:13,446: INFO: main: >>>>>> Evaluation completed <<<<<<
 
 x==========x]
+[2025-12-15 15:27:57,513: INFO: stage_01_data_ingestion: >>>> stage Data Ingestion stage started >>>>>]
+[2025-12-15 15:27:57,516: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-15 15:27:57,519: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-15 15:27:57,520: INFO: common: created directory at: artifacts]
+[2025-12-15 15:27:57,521: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-15 15:27:57,522: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-12-15 15:27:57,860: INFO: stage_01_data_ingestion: >>> stage Data Ingestion stage completed >>>>>
+
+ x======x]
+[2025-12-15 15:28:49,283: INFO: stage_01_data_ingestion: >>>> stage Data Ingestion stage started >>>>>]
+[2025-12-15 15:28:49,285: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-15 15:28:49,286: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-15 15:28:49,287: INFO: common: created directory at: artifacts]
+[2025-12-15 15:28:49,288: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-15 15:28:49,288: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-12-15 15:28:49,874: INFO: stage_01_data_ingestion: >>> stage Data Ingestion stage completed >>>>>
+
+ x======x]
+[2025-12-15 15:29:00,218: INFO: stage_02_prepare_base_model: *******************]
+[2025-12-15 15:29:00,219: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-12-15 15:29:00,223: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-15 15:29:00,225: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-15 15:29:00,225: INFO: common: created directory at: artifacts]
+[2025-12-15 15:29:00,226: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-12-15 15:29:00,730: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-15 15:29:00,910: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-15 15:29:01,073: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-12-15 15:29:07,558: INFO: stage_03_training: *******************]
+[2025-12-15 15:29:07,559: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2025-12-15 15:29:07,561: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-15 15:29:07,563: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-15 15:29:07,564: INFO: common: created directory at: artifacts]
+[2025-12-15 15:29:07,565: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-12-15 15:29:07,566: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-12-15 15:29:07,567: INFO: common: created directory at: artifacts\training]
+[2025-12-15 15:29:07,924: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-15 15:30:26,736: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-15 15:30:26,890: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-15 15:30:26,980: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-12-15 15:30:32,628: INFO: stage_04_evaluation: *******************]
+[2025-12-15 15:30:32,628: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-12-15 15:30:32,630: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-15 15:30:32,631: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-15 15:30:32,632: INFO: common: created directory at: artifacts]
+[2025-12-15 15:30:32,900: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-15 15:30:44,590: INFO: common: json file saved at: scores.json]
+[2025-12-15 15:30:44,590: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
